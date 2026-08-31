@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: demo-app:v0.2.0
+          image: demo-app:v0.1.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80

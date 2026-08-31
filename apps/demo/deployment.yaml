@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: demo-app:v0.1.0
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/jacobkruse/demo-app:v0.2.0
           ports:
             - containerPort: 80
           readinessProbe:

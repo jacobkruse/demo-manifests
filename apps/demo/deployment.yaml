@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/jacobkruse/demo-app:v0.2.0
+          image: ghcr.io/jacobkruse/demo-app:7b0806e
           ports:
             - containerPort: 80
           readinessProbe:
